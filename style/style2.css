@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width:1440px;
+	height:800px;
+	background-color: black;
+	color:hsl(0, 0%, 100%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div	{
+	width: 350px;
+	background-color: hsl(216, 12%, 8%);
+	border-radius: 2rem;
+}
+header{
+	display:inline-block;	margin: 1rem 0 0 2rem;
+	border-radius: 50%;
+	padding:1rem;
+	background-color: hsl(213, 19%, 18%);
+}
+img {
+
+}
+h1 {
+	padding-left:2rem;
+}
+p{
+	padding:0 2rem ;
+	line-height: 1.4rem;
+	font-size: 14px;
+}
+#labels {
+	display:flex;
+	justify-content: center;
+	gap:0.8rem;
+	padding: 0 2rem;
+}
+label{	
+	display: inline-flex;
+	border-radius: 50%;
+	width:3rem;
+	height: 3rem;
+	justify-content: center;
+	align-items: center;
+
+	background-color: hsl(213, 19%, 18%);
+	color:white;
+	cursor: pointer;
+}
+label:hover{
+	background-color: hsl(25, 97%, 53%);
+}
+label:active{
+	background-color: hsl(216, 12%, 54%);
+}
+input{
+	visibility:hidden ;
+	position:absolute;
+}
+a{
+	display:block;
+	margin:1rem 2rem 2rem 2rem;
+	background-color: hsl(25, 97%, 53%);
+	border-radius: 1rem;
+	text-align-last: center;
+	padding: 0.5rem;
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	cursor: pointer;
+}
+a:active{
+	background-color: white;
+	color:hsl(25, 97%, 53%);
+}

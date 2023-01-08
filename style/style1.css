@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width:1440px;
+	height:800px;
+	background-color: black;
+	color:hsl(0, 0%, 100%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container	{
+	background-color: hsl(216, 12%, 8%);
+	width:350px;
+	border-radius: 2rem;
+	}
+div{
+	display:flex;
+	justify-content: ;
+	align-items: center;	
+	flex-direction: column;
+	margin:1.5rem;
+}
+#p1{
+	background-color: hsl(213, 19%, 18%);
+	color:orange;
+	padding:0.5rem 1rem;
+	border-radius: 2rem;
+	opacity: 80%;
+}
+#p2{
+	font-weight: 700;
+	font-size: 2rem;
+}
+#p3{
+	text-align:center ;
+	opacity: 50%;
+}
